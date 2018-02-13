@@ -24,7 +24,7 @@ class ContactController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-        $contacts = $em->getRepository('CityaTestBundle:Contact')->findAll();
+        $contacts = $em->getRepository(Contact::class)->findAll();
 
         return $this->render('contact/index.html.twig', array(
             'contacts' => $contacts,
