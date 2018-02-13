@@ -1,0 +1,59 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*.menuGauche {*/
+    /*margin-top: 70px;*/
+    /*width: 200px;*/
+    /*height: 100%;*/
+    /*position: fixed;*/
+/*}*/
+
+/*.menuGauche ul li {*/
+    /*list-style: none;*/
+    /*border-bottom: solid 1px darkgray;*/
+    /*padding: 5px 10px;*/
+/*}*/
+
+.logo {
+    margin-top: 100px;
+    width: 100px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.homeH1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.door {
+    border: solid 4px white;
+    margin: 20px;
+}
+
+.homeBoxText {
+    padding: 20px 0 10px 0;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+}
+
+.homeText {
+    background-color: rgba(230,230,230,.5);
+    padding: 0 50px;
+}
+
+.formulaireContact {
+    margin-top: 100px;
+}
+
+.formulaireContact form div div{
+    margin-top: 20px;
+}

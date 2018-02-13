@@ -1,0 +1,9 @@
+citya_test:
+    resource: "@CityaTestBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
